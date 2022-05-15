@@ -17,16 +17,30 @@ public class freqOfWords {
         while ((st = br.readLine()) != null){
             int n = st.length(), left = 0;
 
-            for(int right = 0; right < n; right++)
-                if(st.charAt(right) == ' '){ //Space detected
+            for(int right = 0; right < n; right++) {
+
+                char s = st.charAt(right);
+                if (!(s >= 'a' && s <= 'z') && !(s >= 'A' && s <= 'Z')) { //Nonletter detected detected
                     String newWord = st.substring(left, right);
-                    if(!freqWords.containsKey(newWord))
+                    if (!freqWords.containsKey(newWord))
                         freqWords.put(newWord, 1);
                     else
                         freqWords.replace(newWord, freqWords.get(newWord) + 1);
+                    left = right + 1;
                 }
 
+            }
         }
+
+        ArrayList<String> sortedWords = new ArrayList<>();
+        for(String i: freqWords.keySet()) sortedWords.add(i);
+        Collections.sort(sortedWords, (a, b) -> {
+            return freqWords.get(b) - freqWords.get(a);
+        });
+
+        System.out.println("\nWords\tFrequency");
+        for(String i: sortedWords)
+            System.out.println(i + ":\t" + freqWords.get(i));
 
     }
 }

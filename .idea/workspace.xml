@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8a1091-754c-40ff-91bc-88abf1776e9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/freqOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ReadFiles/text.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/freqOfWords/freqOfWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/freqOfWords/freqOfWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/freqOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/freqOfWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="freqOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="freqOfWords" />
+      <module name="freqOfWords" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.freqOfWords" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
