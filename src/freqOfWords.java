@@ -26,7 +26,15 @@ public class freqOfWords {
                         freqWords.put(newWord, 1);
                     else
                         freqWords.replace(newWord, freqWords.get(newWord) + 1);
-                    left = right + 1;
+
+                    //Update left
+                    boolean spaceFound = true;
+                    while(right < n && spaceFound){
+                        char l = st.charAt(right);
+                        if ((l >= 'a' && l <= 'z') || (l >= 'A' && l <= 'Z')) spaceFound = false;
+                        else right++;
+                    }
+                    left = right;
                 }
 
             }
