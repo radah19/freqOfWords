@@ -46,9 +46,11 @@ public class freqOfWords {
             return freqWords.get(b) - freqWords.get(a);
         });
 
-        System.out.println("\nWords\tFrequency");
+        System.out.println("\nNum\tWords\tFrequency");
         for(String i: sortedWords)
-            System.out.println(i + ":\t" + freqWords.get(i));
+            System.out.println(singletonIDsetter.setID() + ". " + i + ":\t" + freqWords.get(i));
+
+        System.out.println("Amount of entries: " + singletonIDsetter.getNumOfEntries());
 
     }
 }

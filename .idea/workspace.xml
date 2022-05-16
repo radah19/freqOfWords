@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8a1091-754c-40ff-91bc-88abf1776e9b" name="Changes" comment="Code works now almost">
+      <change afterPath="$PROJECT_DIR$/src/singletonIDsetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/freqOfWords/freqOfWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/freqOfWords/freqOfWords.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/freqOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/freqOfWords.java" afterDir="false" />
     </list>
@@ -35,6 +37,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager">
     <configuration name="freqOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,9 +74,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code works now almost" />
     <option name="LAST_COMMIT_MESSAGE" value="Code works now almost" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
